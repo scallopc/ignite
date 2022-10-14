@@ -27,7 +27,7 @@ export const Default: StoryObj<InputRootProps> = {};
 export const WithoutIcon: StoryObj<InputRootProps> = {
   args: {
     children: [
-      <InputConfig.Input placeholder="your e-mail" />
+      <InputConfig.Input placeholder="your e-mail" />                        
     ],
   },
 };
