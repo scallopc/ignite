@@ -1,10 +1,10 @@
-import './styles/global.css';
+import { Envelope, Lock } from "phosphor-react";
+import { Button } from "./components/button/button";
+import { SignIn } from "./pages/signIn/signIn";
+import "./styles/global.css";
 
 export function App() {
-
   return (
-    <h1 className="font-bold text-2xl text-violet-500">
-      oi
-    </h1>
-  )
+  <SignIn />
+  );
 }
