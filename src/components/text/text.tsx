@@ -9,7 +9,7 @@ export interface TextProps {
   asChild?: boolean;
 }
 
-export function Text({ size = "md", children, asChild }: TextProps) {
+export default function Text({ size = "md", children, asChild }: TextProps) {
     const Comp = asChild ? Slot : 'span';
   return (
     <Comp

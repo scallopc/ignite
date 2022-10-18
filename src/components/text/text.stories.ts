@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { Text, TextProps } from './Text';
+import Text, { TextProps } from './text';
 
 export default {
   title: "Components/Text",
@@ -35,7 +35,7 @@ export const Large: StoryObj<TextProps> = {
 export const CustomComponent: StoryObj<TextProps> = {
   args: {
     asChild: true,
-    children: <p>Teste</p>,
+    //children: <p>Teste</p>,
   },
   argTypes: {
     children: {
